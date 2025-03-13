@@ -19,7 +19,7 @@ select * from companyinfo where not IncInCtryCode = 'usa' and not IncInCtryCode 
 
 select * from companyinfo where name like 'a%'
 
-select * from companyinfo where name like 'a___' -- aXXXX ±ÛÀÚ¼ö °Ë»ö
+select * from companyinfo where name like 'a___' -- aXXXX ê¸€ììˆ˜ ê²€ìƒ‰
 
 select *
 from companyinfo
