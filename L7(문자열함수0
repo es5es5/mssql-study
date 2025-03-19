@@ -1,0 +1,43 @@
+-- 문자열 함수 적용하기
+
+-- 문자열 길이 반환
+print len(' Abc Def Fed CBa ')
+
+-- 선행공백 제거
+print ltrim(' Abc Def Fed CBa ')
+
+-- 후행공백 제거
+print ltrim(' Abc Def Fed CBa ')
+
+-- 대문자로 표시
+print upper(' Abc Def Fed CBa ')
+
+-- 소문자로 표시
+print lower(' Abc Def Fed CBa ')
+
+-- 왼쪽에서 6자 출력
+print left(' Abc Def Fed CBa ', 6)
+
+-- 오른쪽에서 6자 출력
+print right(' Abc Def Fed CBa ', 6)
+
+-- 거꾸로 출력
+print reverse(' Abc Def Fed CBa ')
+
+-- 특정 패턴을 찾아서 있으면 치환
+print replace(' Abc Def Fed CBa ', 'Abc', 'ZZZ')
+
+-- 특정 문자열 반복
+print replicate('HI', 6)
+
+-- 공백(space)을 여러개 출력
+print '[' + space(10) + ']'
+
+-- 정수형을 문자열로 변환
+print str(12345) + '6789'
+
+-- 문자열검색: 어디서부터 몇 자 검색
+print substring(' Abc Def Fed CBa ', 6, 3)
+
+-- 특정 문자열의 위치값 검색
+print charindex('Def', ' Abc Def Fed CBa ')
